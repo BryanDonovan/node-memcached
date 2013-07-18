@@ -35,7 +35,7 @@
     }
   , "dependencies": {
         "hashring": "0.0.x",
-        "jackpot": "git+ssh://git@github.com:BryanDonovan/jackpot.git#event-emitter-fix"
+        "jackpot" : "git://github.com/BryanDonovan/jackpot.git#event-emitter-fix"
     }
   , "devDependencies": {
         "mocha": "*"
