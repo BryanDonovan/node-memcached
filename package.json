@@ -34,11 +34,12 @@
       , "url" : "http://github.com/3rd-Eden/node-memcached.git"
     }
   , "dependencies": {
-        "hashring": "0.0.x",
-        "jackpot" : "git://github.com/BryanDonovan/jackpot.git#event-emitter-fix"
+        "hashring": "0.0.x"
+       , "jackpot" : ">=0.0.3"
     }
   , "devDependencies": {
-        "mocha": "*"
+        "async": "*"
+      , "mocha": "*"
       , "should": "*"
     }
   , "scripts": {
